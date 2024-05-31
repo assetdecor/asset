@@ -2981,3 +2981,30 @@ section,
   padding-right: 19px;
   color: #fff;
 }
+
+
+
+.vertical-form .but 
+{
+  width: 150px;
+  height: 40px;
+  margin-left: 10rem;
+  background: var(--accent-color);
+  color: var(--contrast-color);
+  font-family: var(--heading-font);
+  font-weight: 300;
+  
+  letter-spacing: 0;
+  
+  transition: 0.3s;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vertical-form .but:hover
+{
+  background: rgba(var(--accent-color-rgb), 0.8);
+  padding-right: 19px;
+  color: #fff;
+}
